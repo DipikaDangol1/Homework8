@@ -8,7 +8,7 @@ class Animal:
 	def guess_who_am_i(self):
 		print("I will give you 3 hints, guess what animal I am")
 		guess_option=randrange(0,3)
-		if guess_option==0:
+		if guess_option>0:
 			guess_tries=1
 			while guess_tries<3:
 				if guess_tries>1:
